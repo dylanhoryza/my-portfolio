@@ -1,0 +1,121 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  /* border-bottom: 2px solid #ccc; */
+  
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 24px;
+  
+}
+
+.name-header{
+  font-size: 30px;
+  color: white;
+}
+
+body {
+  background-color: #151F29;
+  background-image: url('../images/portfolio-bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  font-family: 'Noto Sans JP', sans-serif;
+  min-height: 100vh;
+}
+
+
+
+.short-bio {
+  margin-top: 250px;
+  color: white; /* Adjust as needed */
+}
+
+.short-bio h1 {
+  font-size: 5.5rem;
+  font-weight: bold; /* Adjust the heading font size */
+}
+
+.short-bio p {
+  font-size: 2rem;
+  margin-top: 25px; /* Adjust the paragraph font size */
+}
+
+#about-me {
+  margin-top: 600px;
+  margin-bottom: 200px;
+}
+
+.card-text li {
+  list-style-type: disc;
+  margin-bottom: 7px;
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+#about-bio {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.skills-list {
+  columns: 2; /* Set the number of columns */
+  column-gap: 20px; /* Adjust the gap between columns */
+  padding: 0; /* Remove default padding */
+}
+
+.card-title {
+  font-size: 24px;
+  
+}
+
+.about-me-card, .skills-card {
+  background-color: transparent;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8); 
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.about-me-card:hover, .skills-card:hover {
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.6);
+  
+}
+
+
+.avatar {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+  }
+
+  .avatar-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .projects-header {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
