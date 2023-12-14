@@ -58,17 +58,30 @@ body {
   margin-bottom: 200px;
 }
 
-.card-text li {
+/* .card-text li {
   list-style-type: disc;
   margin-bottom: 7px;
   margin-left: 10px;
   font-size: 20px;
   margin-top: 5px;
+} */
+
+.card-text li {
+  margin-bottom: 7px;
+  margin-left: 10px;
+  font-size: 20px;
+  /* margin-top: 5px; */
+  padding: 5px 10px; /* Add padding for spacing */
+  border: 1px solid #ccc; /* Add a border around each list item */
+  border-radius: 5px; /* Rounded corners for a nicer look */
+  background-color: rgba(76, 175, 80); /* Here, 0.7 represents the opacity */
+  color: white;
 }
 
+
 #about-bio {
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 19.5px;
+  line-height: 2;
 }
 
 .skills-list {
@@ -79,12 +92,14 @@ body {
 
 .card-title {
   font-size: 24px;
-  
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
 }
 
 .about-me-card, .skills-card {
   background-color: transparent;
-  color: white;
+   color: rgb(187, 184, 184);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8); 
   transition: box-shadow 0.3s ease-in-out;
 }
@@ -119,3 +134,99 @@ body {
     font-weight: bold;
   }
   
+  .card-img-top {
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+    object-fit: cover;
+    object-position: top;
+  }
+
+ .budget-buddy {
+  object-position: bottom;
+ }
+
+ .project-card {
+  background-color: transparent;
+  color: rgb(187, 184, 184);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8); 
+  transition: box-shadow 0.3s ease-in-out;
+  
+ }
+
+ .project-card:hover {
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.6);
+ }
+
+ .app-bio {
+  font-size: 18px;
+  line-height: 1.5;
+ }
+
+ .app-bio {
+  display: none;
+}
+
+.project-card:hover .app-bio {
+  display: block;
+}
+
+.view-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  border: solid;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.view-btn:hover {
+  background-color: rgba(76, 175, 80);
+  color: white;
+}
+
+.more-projects {
+  color:rgb(187, 184, 184);
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.github-btn {
+ width: 100px;
+ margin-top: 10px;
+}
+
+#contact {
+  margin-top: 100px;
+}
+
+.contact-header {
+  color: white;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.contact-me {
+  color:rgb(187, 184, 184);
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 30px;
+
+}
+
+@media (max-width: 768px) {
+  body {
+    background-position: center;
+    /* Adjust other properties as needed */
+  }
+}

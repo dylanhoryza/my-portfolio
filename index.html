@@ -21,13 +21,13 @@
     <header>
       <!-- <h1 class="name-header">Dylan Horyza</h1> -->
       <nav>
-        <a href="#about-me">Home</a>
+        <a href="#home">Home</a>
         <a href="#about-me">About Me</a>
-        <a href="#my-work">Projects</a>
+        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
-    <section class="short-bio text-center">
+    <section class="short-bio text-center" id="home">
       <h1 class="display-1">Dylan Horyza</h1>
       <p class="display-4">Full Stack Developer</p>
     </section>
@@ -76,49 +76,101 @@
       <h1 class="projects-header">Projects</h1>
       <div class="row">
         <div class="col-md-6">
-          <div class="card mb-4">
+          <div class="card mb-4 project-card">
             <div class="card-body">
               <h5 class="card-title">Budget Buddy</h5>
-              <p class="card-text">Description of Project 1.</p>
-              <a href="#" class="btn btn-primary">View Project</a>
+              <p class="card-text app-bio">
+                Budget Buddy is a user-friendly financial management app
+                designed to empower users in handling their finances
+                effectively. It simplifies the budgeting process by offering
+                tools for tracking income, setting savings goals, and managing
+                expenses.
+              </p>
+              <a href="https://app-budget-buddy-17170e451f60.herokuapp.com/" class="btn btn-primary view-btn">View Project</a>
             </div>
-            <img src="project1.jpg" class="card-img-top" alt="Project 1 Image">
+            <img
+              src="assets/images/budget-buddy.jpg"
+              class="card-img-top budget-buddy"
+              alt="Budget Buddy Image"
+            />
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card mb-4">
+          <div class="card mb-4 project-card">
             <div class="card-body">
               <h5 class="card-title">Movie Picker</h5>
-              <p class="card-text">Description of Project 2.</p>
-              <a href="#" class="btn btn-primary">View Project</a>
+              <p class="card-text app-bio">
+                Movie Picker is the go to web application for any movie watcher,
+                struggling to decide what to watch. It helps the user choose
+                between which movie to watch by comparing ratings and offers a
+                suggestion. Sit back, relax, and let Movie Picker do the work!
+              </p>
+              <a href="https://dylanhoryza.github.io/team-1-movie-picker/" class="btn btn-primary view-btn">View Project</a>
             </div>
-            <img src="project2.jpg" class="card-img-top" alt="Project 2 Image">
+            <img
+              src="assets/images/movie-picker.jpg"
+              class="card-img-top movie-picker"
+              alt="Movie Picker Image"
+            />
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card mb-4">
+          <div class="card mb-4 project-card">
             <div class="card-body">
               <h5 class="card-title">Tech Blog</h5>
-              <p class="card-text">Description of Project 3.</p>
-              <a href="#" class="btn btn-primary">View Project</a>
+              <p class="card-text app-bio">
+                Tech Blog is a full stack application that allows users to
+                create their own blog posts about all things tech! Utilizing
+                secure authorization sign-in, Tech Blog gives you a safe place
+                to post and comment on unique tech blogs.
+              </p>
+              <a href="#" class="btn btn-primary view-btn">View Project</a>
             </div>
-            <img src="project3.jpg" class="card-img-top" alt="Project 3 Image">
+            <img
+              src="assets/images/tech-blog.jpg"
+              class="card-img-top"
+              alt="Tech Blog Image"
+            />
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card mb-4">
+          <div class="card mb-4 project-card">
             <div class="card-body">
               <h5 class="card-title">Weather Dashboard</h5>
-              <p class="card-text">Description of Project 4.</p>
-              <a href="#" class="btn btn-primary">View Project</a>
+              <p class="card-text app-bio">
+                Weather Dashboard is an application that stores your weather
+                searches and gives you the five day forecast for any city. This app uses the Open-Weather API to pull data. It
+                has a clean design and user-friendly interface that makes
+                searching for a forecast, a breeze!
+              </p>
+              <a href="https://dylanhoryza.github.io/weather-dashboard/" class="btn btn-primary view-btn">View Project</a>
             </div>
-            <img src="project4.jpg" class="card-img-top" alt="Project 4 Image">
+            <img
+              src="assets/images/weather-app.jpg"
+              class="card-img-top"
+              alt="weather-app Image"
+            />
           </div>
         </div>
       </div>
+      <h3 class="more-projects">For more projects and repos, visit my Github page!</h3>
+      <div class="row justify-content-center">
+        <a href="https://github.com/dylanhoryza" target="_blank" class="btn btn-dark btn-block mb-3 github-btn">GitHub</a>
+      </div>
     </section>
-    
-    
+    <section class="container" id="contact">
+      <h1 class="contact-header">Contact Me</h1>
+      <h3 class="contact-me">Contact me below if you have any questions or want to network!</h3>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <a href="https://www.linkedin.com/in/dylan-horyza-9b0ab4231/" target="_blank" class="btn btn-primary btn-block mb-3">LinkedIn</a>
+        </div>
+        <div class="col-md-2">
+          <a href="horyza.dylan@gmail.com" class="btn btn-success btn-block mb-3">horyza.dylan@gmail.com</a>
+        </div>
+       
+      </div>
+    </section>
     
   </body>
 </html>
