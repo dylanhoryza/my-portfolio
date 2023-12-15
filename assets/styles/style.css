@@ -74,7 +74,8 @@ body {
   padding: 5px 10px; /* Add padding for spacing */
   border: 1px solid #ccc; /* Add a border around each list item */
   border-radius: 5px; /* Rounded corners for a nicer look */
-  background-color: rgba(76, 175, 80); /* Here, 0.7 represents the opacity */
+  /* background-color: rgba(76, 175, 80);  */
+  background-color: transparent;
   color: white;
 }
 
