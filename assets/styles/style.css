@@ -173,7 +173,8 @@ body {
 
 .view-btn {
   margin-top: 10px;
-  padding: 10px 20px;
+  margin-right: 8px;
+  padding: 5px 20px;
   background-color: transparent;
   color: white;
   border: solid;
